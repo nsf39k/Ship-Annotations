@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Ship Detection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Ship Detection</h1>
+        <input type="file" id="input-image" accept="image/*">
+        <button class="upload-button" onclick="uploadImage()">Upload Image</button>
+        <img id="output" src="#" alt="Result" hidden>
+        <a id="download" class="download" href="#" download="result.zip" hidden>Download Result</a>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>
